@@ -1,0 +1,12 @@
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.dll
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.pdb
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/nunit.framework.dll
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/Xamarin.Auth.dll
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/Xamarin.Auth.Library.OAuthRetryLogic.dll
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/Xamarin.Auth.Library.OAuthRetryLogic.pdb
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/bin/Debug/nunit.framework.xml
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/obj/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.csprojAssemblyReference.cache
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/obj/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.csproj.CoreCompileInputs.cache
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/obj/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.csproj.CopyComplete
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/obj/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.dll
+/Users/nenad/Projects/Xamarin.Auth.Library.OAuthRetryLogic/Xamarin.Auth.Library.OAuthRetryLogic.Test/obj/Debug/Xamarin.Auth.Library.OAuthRetryLogic.Test.pdb
