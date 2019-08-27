@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Auth;
 using System.Threading.Tasks;
+using Xamarin.Auth.Library.OAuthRetryLogic.src.WaitTimeCallbackImplementations;
 
 namespace Xamarin.Auth.Library.OAuthRetryLogic
 {
@@ -22,6 +23,22 @@ namespace Xamarin.Auth.Library.OAuthRetryLogic
             {
                 string userJson = response.GetResponseText();
             }
+
+            var config = new OAuth2RequestConfig()
+            {
+                Account = a,
+                Method = "GET",
+                Url = new Uri("https://jsonplaceholder.typicodde.com/todos/"),
+                Parameters = null,
+                Timeout = 1000,
+                MaximumTimeout = 3000,
+                NumberOfRetries = 2,
+                WaitTimeCallback = OAuth2RequestExponentialBackoffCallback.Callback
+            };
+
+            var myRequest = new OAuth2RequestWithRetry(config);
+
+            var response
         }
     }
 }

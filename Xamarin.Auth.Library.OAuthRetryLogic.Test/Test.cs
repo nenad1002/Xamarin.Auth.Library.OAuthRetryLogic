@@ -8,9 +8,7 @@ namespace Xamarin.Auth.Library.OAuthRetryLogic.Test
         [Test()]
         public void TestCase()
         {
-            Assert.AreEqual(1, 1);
-            Xamarin.Auth.Library.OAuthRetryLogic.MyClass a = new MyClass();
-            a.f();
+            // TODO: Add tests.
         }
     }
 }

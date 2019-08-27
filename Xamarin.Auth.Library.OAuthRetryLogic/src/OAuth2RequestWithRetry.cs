@@ -14,6 +14,10 @@ namespace Xamarin.Auth.Library.OAuthRetryLogic
     {
         private OAuth2RequestConfig config;
 
+        /// <summary>
+        /// Iniatilizes a new instance of OAuth2RequestWithRetry.
+        /// </summary>
+        /// <param name="config">The config.</param>
         public OAuth2RequestWithRetry(OAuth2RequestConfig config)
             : base(config.Method, config.Url, config.Parameters, config.Account)
         {

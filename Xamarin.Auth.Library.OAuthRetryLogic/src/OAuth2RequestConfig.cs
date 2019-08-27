@@ -2,8 +2,6 @@
 // <copyrightfile="OAuth2RequestConfig.cs" author="Nenad Banfic">
 //  MIT Licence.
 // <copyrightfile>
-
-
 using System;
 using System.Collections.Generic;
 
