@@ -3,7 +3,7 @@ A library that extends Xamarin.Auth and provides the retry logic (in usable stat
 
 The example of usage:
 ```csharp
-// Define a config which specified the number of retries, the timeout of a single request, 
+// Define a config which specifies the number of retries, the timeout of a single request, 
 // the timeout of all the requests and the callback function.
 var config = new OAuth2RequestConfig()
 {
@@ -21,4 +21,4 @@ var config = new OAuth2RequestConfig()
 var myRequest = new OAuth2RequestWithRetry(config);
 
 var response = await myRequest.GetResponseAsync();
-```csharp
+```
