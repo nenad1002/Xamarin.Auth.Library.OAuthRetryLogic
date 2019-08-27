@@ -39,6 +39,7 @@
     <Compile Include="src\Exceptions\OAuth2RequestRetriesExceededException.cs" />
     <Compile Include="src\OAuth2RequestConfig.cs" />
     <Compile Include="src\OAuth2RequestWithRetry.cs" />
+    <Compile Include="src\Exceptions\OAuth2RequestInvalidConfigException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

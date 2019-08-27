@@ -1,6 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
+﻿//------------------
+// <copyrightfile="OAuth2RequestWithRetry.cs" author="Nenad Banfic">
+//  MIT Licence.
+// <copyrightfile>
+
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Auth.Library.OAuthRetryLogic.src.Exceptions;
@@ -14,7 +17,13 @@ namespace Xamarin.Auth.Library.OAuthRetryLogic
         public OAuth2RequestWithRetry(OAuth2RequestConfig config)
             : base(config.Method, config.Url, config.Parameters, config.Account)
         {
-            this.config = config;
+            if (this.CheckConfig(config))
+            {
+                this.config = config;
+            } else
+            {
+                throw new OAuth2RequestInvalidConfigException();
+            }
         }
 
         /// <summary>
@@ -82,6 +91,11 @@ namespace Xamarin.Auth.Library.OAuthRetryLogic
             }
 
             throw new OAuth2RequestRetriesExceededException();
+        }
+
+        private bool CheckConfig(OAuth2RequestConfig config)
+        {
+            return config.Timeout != 0 && config.MaximumTimeout != 0 && config.NumberOfRetries != 0 && config.WaitTimeCallback != null;
         }
     }
 }
