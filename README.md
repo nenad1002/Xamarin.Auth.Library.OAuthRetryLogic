@@ -1,5 +1,5 @@
 # Xamarin.Auth.Library.OAuthRetryLogic
-A library that extends Xamarin.Auth and provides the retry logic (in usable state, some parts of it still in development, please stay tune).
+A library that extends Xamarin.Auth and provides the retry logic (in usable state, some parts of it still in development, please stay tuned, new features to be applied by 9/15/2019).
 
 The example of usage:
 ```csharp
